@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epic Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">EpicStore</div>
+        <ul class="nav__list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="effect.html">Demo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section
+      id="home"
+      class="section section--hero reveal"
+      data-parallax-speed="0.5"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?store,fashion');
+      "
+    >
+      <div class="section__content">
+        <h1>Welcome to EpicStore</h1>
+        <p>Elevate your lifestyle with our curated collection.</p>
+        <button class="btn">Explore Now</button>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section section--light reveal">
+      <h2>Top Products</h2>
+      <div class="products">
+        <div class="product reveal">
+          <img
+            src="https://source.unsplash.com/300x300/?watch"
+            alt="Stylish Watch"
+          />
+          <h3>Stylish Watch</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="product reveal">
+          <img
+            src="https://source.unsplash.com/300x300/?headphones"
+            alt="Premium Headphones"
+          />
+          <h3>Premium Headphones</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="product reveal">
+          <img
+            src="https://source.unsplash.com/300x300/?backpack"
+            alt="Adventure Backpack"
+          />
+          <h3>Adventure Backpack</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section
+      id="features"
+      class="section section--accent reveal"
+      data-parallax-speed="0.3"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?warehouse,minimal');
+      "
+    >
+      <div class="section__content">
+        <h2>Why Choose Us</h2>
+        <ul class="features">
+          <li>High Quality Products</li>
+          <li>Fast & Secure Shipping</li>
+          <li>24/7 Customer Support</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section--light reveal">
+      <h2>About EpicStore</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+        commodo cursus magna.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--light reveal">
+      <h2>Contact Us</h2>
+      <p>Email: support@epicstore.com</p>
+      <p>Address: 123 Store Lane, Retail City</p>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 EpicStore. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>

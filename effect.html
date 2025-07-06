@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Effect Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="logo">ParallaxDemo</div>
+        <ul class="nav__list">
+          <li><a href="index.html">Back to Store</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      class="section section--hero reveal"
+      data-parallax-speed="0.6"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?nature,mountain');
+      "
+    >
+      <div class="section__content">
+        <h1>Layer One</h1>
+      </div>
+    </section>
+
+    <section
+      class="section section--hero reveal"
+      data-parallax-speed="0.3"
+      style="
+        background-image: url('https://source.unsplash.com/1600x900/?forest');
+      "
+    >
+      <div class="section__content">
+        <h1>Layer Two</h1>
+      </div>
+    </section>
+
+    <section
+      class="section section--hero reveal"
+      data-parallax-speed="0.1"
+      style="background-image: url('https://source.unsplash.com/1600x900/?sky')"
+    >
+      <div class="section__content">
+        <h1>Layer Three</h1>
+        <p>Scroll to witness the depth</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 ParallaxDemo</p>
+    </footer>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
