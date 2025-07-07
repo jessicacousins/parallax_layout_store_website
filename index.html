@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Epic Store</title>
+    <title>Epic Parallax Store</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -12,6 +12,7 @@
         <div class="logo">EpicStore</div>
         <ul class="nav__list">
           <li><a href="#home">Home</a></li>
+          <li><a href="#new">New Arrivals</a></li>
           <li><a href="#products">Products</a></li>
           <li><a href="#features">Features</a></li>
           <li><a href="#about">About</a></li>
@@ -26,14 +27,40 @@
       id="home"
       class="section section--hero reveal"
       data-parallax-speed="0.5"
-      style="
-        background-image: url('https://source.unsplash.com/1600x900/?store,fashion');
-      "
+      style="background-image: url('parallax1.png')"
     >
+      <div class="bubbles"></div>
       <div class="section__content">
         <h1>Welcome to EpicStore</h1>
         <p>Elevate your lifestyle with our curated collection.</p>
         <button class="btn">Explore Now</button>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section
+      id="new"
+      class="section section--hero reveal"
+      data-parallax-speed="0.4"
+      style="background-image: url('parallax2.png')"
+    >
+      <div class="bubbles"></div>
+      <div class="section__content">
+        <h2>New Arrivals</h2>
+        <div class="products">
+          <div class="product reveal">
+            <img src="placeholder1.png" alt="Item 1" />
+            <h3>Item One</h3>
+          </div>
+          <div class="product reveal">
+            <img src="placeholder2.png" alt="Item 2" />
+            <h3>Item Two</h3>
+          </div>
+          <div class="product reveal">
+            <img src="placeholder3.png" alt="Item 3" />
+            <h3>Item Three</h3>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -42,28 +69,16 @@
       <h2>Top Products</h2>
       <div class="products">
         <div class="product reveal">
-          <img
-            src="https://source.unsplash.com/300x300/?watch"
-            alt="Stylish Watch"
-          />
+          <img src="placeholder1.png" alt="Watch" />
           <h3>Stylish Watch</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="product reveal">
-          <img
-            src="https://source.unsplash.com/300x300/?headphones"
-            alt="Premium Headphones"
-          />
+          <img img src="placeholder2.png" alt="Headphones" />
           <h3>Premium Headphones</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
         </div>
         <div class="product reveal">
-          <img
-            src="https://source.unsplash.com/300x300/?backpack"
-            alt="Adventure Backpack"
-          />
+          <img img src="placeholder3.png" alt="Backpack" />
           <h3>Adventure Backpack</h3>
-          <p>Lorem ipsum dolor sit amet.</p>
         </div>
       </div>
     </section>
@@ -73,10 +88,9 @@
       id="features"
       class="section section--accent reveal"
       data-parallax-speed="0.3"
-      style="
-        background-image: url('https://source.unsplash.com/1600x900/?warehouse,minimal');
-      "
+      style="background-image: url('parallax3.png')"
     >
+      <div class="bubbles"></div>
       <div class="section__content">
         <h2>Why Choose Us</h2>
         <ul class="features">
