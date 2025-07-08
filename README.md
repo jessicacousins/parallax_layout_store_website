@@ -28,4 +28,8 @@ Adapt — remix, transform, and build upon the material for any purpose, even co
 Under the following terms:
 
 Attribution — You must give appropriate credit, provide a link to this repository, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-For full license details, see: https://creativecommons.org/licenses/by/4.0/
+For full license details, see:
+
+```
+https://creativecommons.org/licenses/by/4.0/
+```
