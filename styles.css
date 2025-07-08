@@ -2,9 +2,9 @@
   --primary: #ff5e62;
   --secondary: #2b2e4a;
   --accent: #e84855;
-  --light-bg: #f8f7f7;
+  --light-bg: #b9faf1;
   --dark-bg: #222;
-  --text-light: #fff;
+  --text-light: #fceca8;
   --text-dark: #333;
   --gradient-start: #ff5e62;
   --gradient-end: #e84855;
@@ -80,6 +80,7 @@ img {
   padding: 4rem 2rem;
   position: relative;
   overflow: hidden;
+  color: #1d1f1e;
 }
 .section--light {
   background: var(--light-bg);
@@ -236,6 +237,7 @@ h2 {
 #new .product:nth-child(3).reveal {
   transition-delay: 0.6s;
 }
+
 #products .product:nth-child(1).reveal {
   transition-delay: 0.2s;
 }
@@ -244,4 +246,10 @@ h2 {
 }
 #products .product:nth-child(3).reveal {
   transition-delay: 0.6s;
+}
+#products .product:nth-child(4).reveal {
+  transition-delay: 0.8s;
+}
+#products .product:nth-child(5).reveal {
+  transition-delay: 1s;
 }
