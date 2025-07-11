@@ -90,9 +90,10 @@ img {
   color: var(--text-light);
 }
 .section--hero {
-  background-attachment: fixed;
+  background-color: var(--light-bg);
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 
 /* bubbles effect */
