@@ -82,6 +82,12 @@ img {
   overflow: hidden;
   color: #1d1f1e;
 }
+.section__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-top: 130px;
+}
 .section--light {
   background: var(--light-bg);
 }
